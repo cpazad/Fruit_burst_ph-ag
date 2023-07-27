@@ -30,15 +30,19 @@
   <!-- Main Body without footer -->
   <div class="main-body bg-white">
     <div class="container w-10/12 mx-auto">
-      
-      <!-- Section 1 (main r ) Navbar Ends -->
+
+      <!-- Section 1 (main r ) Navbar start Here -->
       <div class="navbar bg-red-500 rounded-full text-white my-5">
         <div class="navbar-start">
           <div class="dropdown">
             <label tabindex="0" class="btn btn-ghost lg:hidden">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
             </label>
-            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 text-gray-700 rounded-box w-52">
+            <ul tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 text-gray-700 rounded-box w-52">
               <li><a>Item 1</a></li>
               <li>
                 <a>Parent</a>
@@ -50,7 +54,8 @@
               <li><a>Item 3</a></li>
             </ul>
           </div>
-          <a class="btn btn-ghost normal-case text-xl"><img class="w-10" src="images/logo.png" alt=""><span class="font-semibold">Fruit Burst</span> </a>
+          <a class="btn btn-ghost normal-case text-xl"><img class="w-10" src="images/logo.png" alt=""><span
+              class="font-semibold">Fruit Burst</span> </a>
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1">
@@ -68,12 +73,86 @@
           </ul>
         </div>
         <div class="navbar-end mr-5">
-          <input type="text" placeholder="Type here" class="input input-bordered input-sm w-28 md:w-72 max-w-xs rounded-full hidden md:block" />
+          <input type="text" placeholder="Type here"
+            class="input input-bordered input-sm w-28 md:w-72 max-w-xs rounded-full hidden md:block" />
         </div>
       </div>
-      <!-- Section 1 (main r ) Navbar starts -->
+      <!-- Section 1 (main r ) Navbar End Now -->
 
       <!-- Section 2 (main r ) Slider Banner starts -->
+      <!-- slider Container lg:h-[550px]-->
+      <div class="carousel w-full lg:h-[550px] rounded-md">
+        <!-- slide 1 min-h-screen -->
+        <div id="slide1" class="carousel-item relative w-full">
+          <div class="hero " style="background-image: url(images/banner1.png); background-size:cover;">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content">
+              <div class="max-w-md">
+                <h1 class="mb-5 lg:text-5xl sm:text-3xl text-2xl font-extrabold text-white"> Exotic tastes at your doorstep </h1>
+                <p class="mb-5 text-white"> We supply highly quality organic products </p>
+                <button class="btn btn-error text-white"> Shop Now </button>
+              </div>
+            </div>
+          </div>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle bg-gray-900 text-white border-black">❮</a>
+            <a href="#slide2" class="btn btn-circle bg-gray-900 text-white border-black">❯</a>
+          </div>
+        </div>
+        <!-- slide 2 -->
+        <div id="slide2" class="carousel-item relative w-full">
+          <div class="hero " style="background-image: url(images/banner2.png); background-size:cover;">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content">
+              <div class="max-w-md">
+                <h1 class="mb-5 lg:text-5xl sm:text-3xl text-2xl font-extrabold text-white"> Exotic tastes at your doorstep </h1>
+                <p class="mb-5 text-white"> We supply highly quality organic products </p>
+                <button class="btn btn-error text-white"> Shop Now </button>
+              </div>
+            </div>
+          </div>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle bg-gray-900 text-white border-black">❮</a>
+            <a href="#slide3" class="btn btn-circle bg-gray-900 text-white border-black">❯</a>
+          </div>
+        </div>
+        <!-- slide 3 -->
+        <div id="slide3" class="carousel-item relative w-full">
+          <div class="hero " style="background-image: url(images/banner3.png); background-size:cover;">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content">
+              <div class="max-w-md">
+                <h1 class="mb-5 lg:text-5xl sm:text-3xl text-2xl font-extrabold text-white"> Exotic tastes at your doorstep </h1>
+                <p class="mb-5 text-white"> We supply highly quality organic products </p>
+                <button class="btn btn-error text-white"> Shop Now </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle bg-gray-900 text-white border-black">❮</a>
+            <a href="#slide4" class="btn btn-circle bg-gray-900 text-white border-black">❯</a>
+          </div>
+        </div>
+        <!-- slide 4 -->
+        <div id="slide4" class="carousel-item relative w-full">
+
+          <div class="hero " style="background-image: url(images/banner1.png); background-size:cover;">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content">
+              <div class="max-w-md">
+                <h1 class="mb-5 lg:text-5xl sm:text-3xl text-2xl font-extrabold text-white"> Exotic tastes at your doorstep </h1>
+                <p class="mb-5 text-white"> We supply highly quality organic products </p>
+                <button class="btn btn-error text-white"> Shop Now </button>
+              </div>
+            </div>
+          </div>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class="btn btn-circle bg-gray-900 text-white border-black">❮</a>
+            <a href="#slide1" class="btn btn-circle bg-gray-900 text-white border-black">❯</a>
+          </div>
+        </div>
+      </div>
       <!-- Section 2 (main r ) Slider Banner Ends -->
 
       <!-- Section 3 (Bonus ) Fruit collection elevated starts -->
@@ -99,12 +178,12 @@
             <img src="images/fruit5.png" alt="">
             <h5 class="text-center font-bold"> Pomegranate</h5>
           </div>
-        
-  
-  
+
+
+
         </section>
       </div>
-      
+
       <!-- Section 3 (Bonus ) Fruit collection elevated Ends -->
 
       <!-- Section 4 (main r ) Deal of the Day starts -->
@@ -171,12 +250,14 @@
               <!-- Modal link -->
 
               <!-- Open the modal using ID.showModal() method -->
-              <button class="btn bg-white text-red-500 border-gray-100" onclick="my_modal_2.showModal()"> Details</button>
+              <button class="btn bg-white text-red-500 border-gray-100" onclick="my_modal_2.showModal()">
+                Details</button>
               <dialog id="my_modal_2" class="modal modal-bottom sm:modal-middle">
                 <form method="dialog" class="modal-box bg-white">
                   <img src="images/fruit6.png" alt="fruit" class="mx-auto">
                   <h3 class="font-bold text-lg"> Apple </h3>
-                  <p class="py-4 max-w-md">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                  <p class="py-4 max-w-md">Professional employees are there for you to pick the most amazing and fresh
+                    fruits.</p>
                   <div class="rating my-3">
                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
@@ -186,7 +267,8 @@
                   </div>
                   <div class="modal-action justify-center">
                     <!-- if there is a button in form, it will close the modal -->
-                    <button class="btn">Close</button> <button hraf="#" class="btn bg-red-500 text-white"> Buy Now </button>
+                    <button class="btn">Close</button> <button hraf="#" class="btn bg-red-500 text-white"> Buy Now
+                    </button>
                   </div>
                 </form>
               </dialog>
@@ -215,12 +297,14 @@
               <!-- Modal link -->
 
               <!-- Open the modal using ID.showModal() method -->
-              <button class="btn bg-white text-red-500 border-gray-100" onclick="my_modal_3.showModal()"> Details</button>
+              <button class="btn bg-white text-red-500 border-gray-100" onclick="my_modal_3.showModal()">
+                Details</button>
               <dialog id="my_modal_3" class="modal modal-bottom sm:modal-middle">
                 <form method="dialog" class="modal-box bg-white">
                   <img src="images/fruit6.png" alt="fruit" class="mx-auto">
                   <h3 class="font-bold text-lg"> Orange </h3>
-                  <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                  <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.
+                  </p>
                   <div class="rating my-3">
                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
@@ -230,7 +314,8 @@
                   </div>
                   <div class="modal-action justify-center">
                     <!-- if there is a button in form, it will close the modal -->
-                    <button class="btn">Close</button> <button hraf="#" class="btn bg-red-500 text-white"> Buy Now </button>
+                    <button class="btn">Close</button> <button hraf="#" class="btn bg-red-500 text-white"> Buy Now
+                    </button>
                   </div>
                 </form>
               </dialog>
@@ -252,18 +337,20 @@
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
               </div>
               <!-- Modal link -->
 
               <!-- Open the modal using ID.showModal() method -->
-              <button class="btn bg-white text-red-500 border-gray-100" onclick="my_modal_5.showModal()"> Details</button>
+              <button class="btn bg-white text-red-500 border-gray-100" onclick="my_modal_5.showModal()">
+                Details</button>
               <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
                 <form method="dialog" class="modal-box bg-white">
                   <img src="images/fruit7.png" alt="fruit" class="mx-auto">
                   <h3 class="font-bold text-lg"> Orange </h3>
-                  <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                  <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.
+                  </p>
                   <div class="rating my-3">
                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
@@ -273,7 +360,8 @@
                   </div>
                   <div class="modal-action justify-center">
                     <!-- if there is a button in form, it will close the modal -->
-                    <button class="btn">Close</button> <button hraf="#" class="btn bg-red-500 text-white"> Buy Now </button>
+                    <button class="btn">Close</button> <button hraf="#" class="btn bg-red-500 text-white"> Buy Now
+                    </button>
                   </div>
                 </form>
               </dialog>
@@ -301,12 +389,14 @@
               <!-- Modal link -->
 
               <!-- Open the modal using ID.showModal() method -->
-              <button class="btn bg-white text-red-500 border-gray-100" onclick="my_modal_1.showModal()"> Details</button>
+              <button class="btn bg-white text-red-500 border-gray-100" onclick="my_modal_1.showModal()">
+                Details</button>
               <dialog id="my_modal_1" class="modal modal-bottom sm:modal-middle">
                 <form method="dialog" class="modal-box bg-white">
                   <img src="images/fruit1.png" alt="fruit" class="mx-auto">
                   <h3 class="font-bold text-lg"> Orange </h3>
-                  <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                  <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.
+                  </p>
                   <div class="rating my-3">
                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
@@ -316,7 +406,8 @@
                   </div>
                   <div class="modal-action justify-center">
                     <!-- if there is a button in form, it will close the modal -->
-                    <button class="btn">Close</button> <button hraf="#" class="btn bg-red-500 text-white"> Buy Now </button>
+                    <button class="btn">Close</button> <button hraf="#" class="btn bg-red-500 text-white"> Buy Now
+                    </button>
                   </div>
                 </form>
               </dialog>
